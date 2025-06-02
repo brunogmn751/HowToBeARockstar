@@ -61,9 +61,11 @@ body {
   body {
     background-image: url(/imagens/backgrpund_mobile.png);
     background-size: 270%
-
-
   }
+  .page {
+  height: 100vh;
+  overflow:auto;
+}
 
   .title {
   font-family: "Bebas Neue", sans-serif;
