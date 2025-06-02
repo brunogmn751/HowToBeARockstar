@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(/imagens/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.page {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+
+.special {
+  font-size: 1.5em;
+}
+
+.logo {
+  width: 25rem;
+  margin-top: -rem
+}
+
+.botao_comprar {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  /* text-shadow: 4px 4px 0px #00f570; */
+  color: white;
+  font-size: 3.5em;
+  background-color: #72f8af;
+  padding: 1rem 3rem;
+  border-radius: 1.5em;
+  border: solid 0.5rem white;
+}
+
+.parasol {
+  width: 7em;
+  padding: 1em 0vw;
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    background-image: url(/imagens/backgrpund_mobile.png);
+    background-size: 260%
+  }
+}
