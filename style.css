@@ -60,6 +60,32 @@ body {
 @media screen and (max-width: 1080px) {
   body {
     background-image: url(/imagens/backgrpund_mobile.png);
-    background-size: 260%
+    background-size: 270%
+
+
   }
+
+  .title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+
+.special {
+  font-size: 1.5em;
+}
+
+.logo {
+  width: 19rem;
+}
+
+.botao_comprar {
+  font-size: 3em;
+  padding: .75rem 2rem;
+  border-radius: 1.5em;
+  border: solid 0.5rem white;
+}
 }
